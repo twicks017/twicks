@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardCornerRadius="5dp"
+    android:layout_marginTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:background="#ffebee"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="#f44336"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@drawable/bg"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="300dp" />
+
+        <TextView
+            android:layout_below="@+id/img1"
+            android:id="@+id/desc1"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+           />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#f44336">
+        <ImageView
+            android:id="@+id/img2"
+            android:src="@drawable/bg"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="300dp" />
+
+
+        <TextView
+            android:layout_below="@+id/img2"
+            android:id="@+id/desc2"
+            android:text="hello"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#f44336">
+
+        <FrameLayout
+            android:id="@+id/frag"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="260dp">
+
+        <VideoView
+            android:id="@+id/img3"
+            android:src="@drawable/bg"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+
+            android:layout_height="match_parent" />
+
+
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_btn"
+            android:id="@+id/pause_play"
+            android:layout_gravity="bottom"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/desc3"
+            android:layout_below="@+id/frag"
+            android:text="hello"
+            android:textColor="#ffffff"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#f44336">
+        <ImageView
+            android:src="@drawable/bg"
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="300dp"/>
+
+
+        <TextView
+            android:layout_below="@+id/img4"
+            android:id="@+id/desc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#f44336">
+        <ImageView
+            android:id="@+id/img5"
+            android:src="@drawable/bg"
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="300dp" />
+
+
+       <TextView
+        android:layout_below="@+id/img5"
+        android:id="@+id/desc5"
+           android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+           android:padding="5dp"
+           android:text="hello"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#f44336">
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="?android:attr/ratingBarStyleIndicator"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:isIndicator="true"
+
+            />
+
+    </RelativeLayout>
+   </LinearLayout></ScrollView>
+
+</LinearLayout>
+

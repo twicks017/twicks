@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/ToolbarTheme">
+
+    <item
+        android:id="@+id/spinner"
+        app:popupTheme="@style/AppTheme.NoActionBar"
+        android:title="ActionBar Spinner"
+        android:textColor="#ff0900"
+        android:background="#fafafa"
+        app:actionViewClass="android.widget.Spinner"
+        android:icon="@drawable/icon1"
+        app:showAsAction="always" />
+
+    <item
+        android:title="Search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:id="@+id/sv">
+
+    </item>
+
+
+
+</menu>

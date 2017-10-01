@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">twicks</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_account">My Account</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">twickr!</string>
+    <string name="slide_1_desc">The most convinient way to purchase a ticket for Your favourite shows!</string>
+
+    <string name="slide_2_title">Events</string>
+    <string name="slide_2_desc">View Upcoming events or search for your favourite to find out where and when its
+        scheduled, with an option of ticket purchase in different categories!</string>
+
+    <string name="slide_3_title">Events review</string>
+    <string name="slide_3_desc">Did you miss an event or want to re-live the moment...no worry, be sure to get all the highlites of
+        featured events!</string>
+
+    <string name="slide_4_title">Account</string>
+    <string name="slide_4_desc">Here, all your purchased tickets will stack!</string>
+
+    <string name="play_again_desc">Ticket purchase will close 2 hours before the start of an event...</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_main2">twicks</string>
+</resources>
